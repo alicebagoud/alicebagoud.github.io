@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "RobotoLightItalic";
+    src: url(./Roboto/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family: "RobotoExtraBold";
+    src: url(./Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src:url(./Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "RobotoBold";
+    src: url(./Roboto/Roboto-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+/* Nav Bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    background-color: #1f2937;
+}
+.navbar-left h3,
+.navbar-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.navbar-left {
+    display: flex;
+}
+.navbar-left h3 {
+    margin-left: 12px;
+    font-family: "RobotoBold";
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+    text-decoration: none;
+}
+.navbar-right ul li a {
+    text-decoration: none;
+    font-family: "Roboto";
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 15px;
+}
+.navbar-right ul li a:hover {
+    color: #3882F6;
+}
+
+/* This website is awesome */
+
+.main-container {
+    background-color: #1f2937;
+    display: flex;
+    gap: 30px;
+    width: auto;
+    padding: 50px 300px;
+}
+.info-container {
+    display: flex;
+    gap: 30px;
+    width: auto;
+}
+.awesomeWebsite {
+    background-color: #1f2937;
+    width: 45%;
+}
+.awesomeWebsite h1 {
+    font-family: "RobotoExtraBold";
+    color: #F9FAF8;
+    font-size: 48px;
+    margin: 0 0 5px 0;
+}
+.awesomeWebsite p {
+    color: #E5E7EB;
+    margin: 0;
+    font-size: 18px;
+}
+.firstSignUpButton {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 10%;
+    padding: 10px 30px 10px 30px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 15px;
+    width: 120px;
+    cursor: pointer;
+}
+.placeholderBox {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: #E5E7EB;
+    place-content: center;
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+/* Some random information */
+
+.randomInfo h1 {
+    text-align: center;
+    font-family: "RobotoBold";
+}
+.flex-container-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box {
+    height: 140px;
+    width: auto;
+    background-color: none;
+    border: solid #3882F6 2px;
+    border-radius: 10px;
+}
+figcaption {
+    text-align: center;
+    display: center;
+    color: #1f2937;
+    width: 150px;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 430px;
+    color: #1f2937;
+}
+.quote p {
+    font-family: "RobotoLightItalic";
+    font-size: 36px;
+}
+.quote h4 {
+    font-size: 26px;
+    display: flex;
+    justify-content: right;
+    align-items:flex-end;
+    font-family: "RobotoBold";
+}
+
+/* Call to action */
+
+.actionTime {
+    margin: 100px 200px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+.blueDiv {
+    display: inline-block;
+    align-items: center;
+    padding: 40px 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+.blueDiv h2 {
+    font-family: "RobotoBold";
+    margin: 0 0 -10px 0;
+}
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: inherit;
+}
+.secondSignUpButton {
+    background-color: #3882F6;
+    color: #E5E7EB;    
+    border: solid #E5E7EB 2px;
+    border-radius: 10%;
+    padding: 10px 30px 10px 30px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 15px;
+    width: 120px;
+    cursor: pointer;
+}
+/* Footer */
+
+footer {
+    background-color: #1f2937;
+    padding: 30px;
+    color: #F9FAF8;
+    text-align: center;
+}
